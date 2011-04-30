@@ -1,0 +1,170 @@
+body {
+	font-size: 14px;
+	line-height: 1.25em;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	background-color: #ccc;
+	background-image: url(/images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+} 
+.clear {
+	clear: both;
+}
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a:link,
+a:visited {
+	color: #fffdc2;
+	text-decoration: underline;
+}
+a:active,
+a:hover {
+	text-decoration: none;
+}
+#container {
+	background: #d03500;
+	width: 900px;
+	margin: 0px auto;
+}
+#logo {
+	margin-bottom: 10px;
+	font-family: Georgia, serif;
+	padding: 10px 20px 0 20px;
+}
+#logo a {
+	text-decoration: none;
+	color: inherit;
+}
+#nav {
+	background: #ba2f00;
+	width: 860px;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+#nav li {
+	float:left;
+	list-style: none;
+	padding-right: 10px;
+	border-right: 1px solid #000;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+
+#nav li#contact,
+#nav li#twitter,
+#nav li#facebook {
+	border-right: none;
+}
+
+#nav li#twitter,
+#nav li#facebook {
+	float: right;
+	margin-top: 0;
+}
+
+#nav li#facebook {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#nav li#twitter a,
+#nav li#facebook a {
+	display: block;
+	height: 26px;
+	width: 26px;
+	text-indent: -9999em;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+#nav li#twitter a:hover,
+#nav li#facebook a:hover {
+	background-position: 0 -26px;
+}
+
+#nav li#facebook a {
+	background-image: url(/images/facebook.png);
+}
+
+#nav li#twitter a {
+	background-image: url(/images/twitter.png);
+}
+#content {
+  clear: both;
+}
+#slogan {
+	margin-bottom: 10px;
+	background: url(/images/slogan.jpg) 0 0 no-repeat;
+	width: 900px;
+	height: 150px;
+	text-indent: -9999em;
+}
+
+#feature_products {
+	background: #ba2f00;
+	width: 860px;
+	float: left;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+#feature_products li {
+	float: left;
+	list-style: none;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#feature_products li img {
+	border: 10px solid #000;
+	height: 200px;
+	width: 250;
+}
+
+#footer {
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+#footer ul {
+	width: 600px;
+	float: left;
+	padding: 10px 0 10px 20px;
+}
+
+#footer ul li {
+	float:left;
+	list-style: none;
+	padding-right: 5px;
+	border-right: 1px solid #000;
+	margin-right: 5px;
+}
+
+#footer span {
+	font-size: 0.75em;
+	float: right;
+	padding: 10px 20px 0 0;
+}
+#content {
+	padding: 10px 15px;
+}
+#content p {
+	padding-bottom: 10px;
+}
+
+#contact_us_image {
+	float: right;
+	margin-right: 30px;
+	border: solid 5px;
+	margin-top: 0px;
+	padding-top: 0px;
+}

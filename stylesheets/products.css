@@ -1,0 +1,32 @@
+body {
+	background-color: black;
+	background-image: none;
+}
+#all_products {
+	background: #ba2f00;
+	width: 860px;
+	float: left;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+
+#all_products li {
+	float: left;
+	list-style: none;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#all_products li img {
+	border: 5px solid #000;
+	height: 200px;
+	width: 250;
+}
+#product_details {
+	list-style: none;
+}
+#breadcrumbs, 
+#categories,
+#product_listing {
+	list-style: none;
+}
